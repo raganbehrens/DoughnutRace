@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DoughnutRace</string>
+    <string name="title_bar">Doughnut&#032;Race</string>
+    <string name="new_game">New&#032;Game</string>
+    <string name="scores">Scores</string>
+    <string name="instructions">Instructions</string>
+    <string name="settings">Settings</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="game_instructions">
+        Welcome to Doughnut Race!
+        \n\nMr. Dough <i>loves</i> doughnuts. Help him eat as many doughnuts as he can while he rolls down the
+        street. But be careful! He dislikes broccoli and lifting weights.
+        \n\nMr. Dough cannot touch more than 3 obstacles or he will lose weight and the game will end!
+        Tilt your phone to move to a different lane to avoid the obstacles and eat doughnuts.
+        \n\nGood luck and happy eating!
+    </string>
+    <string name="difficulty_easy">Easy</string>
+    <string-array name="difficulty_levels">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string name="button_controls">Controls</string>
+    <string-array name="controls_options">
+        <item>Buttons</item>
+        <item>Tilt</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

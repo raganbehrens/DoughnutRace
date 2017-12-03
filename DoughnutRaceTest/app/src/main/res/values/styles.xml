@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/RoundShapeButton</item>
+    </style>
+
+    <style name="RoundShapeButton" parent="android:style/Widget.Holo.Button">
+        <item name="buttonStyle">@style/RoundShapeButton</item>
+        <item name="android:background">@drawable/round_button</item>
+    </style>
+</resources>

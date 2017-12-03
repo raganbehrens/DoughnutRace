@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <edu.dnaomi94utexas.doughnutracetest.GameView
+        android:id="@+id/gameView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/left_arrow"
+        android:layout_alignBottom="@+id/gameView"/>
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/right_arrow"
+        android:layout_alignRight="@id/gameView"
+        android:layout_alignBottom="@+id/gameView"/>
+
+    <Button
+        android:id="@+id/pauseButton"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignRight="@id/gameView"
+        android:layout_alignTop="@+id/gameView"/>
+
+    <TextView
+        android:id="@+id/livesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/gameView"
+        android:layout_alignTop="@+id/gameView"/>
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/gameView"
+        android:layout_below="@id/livesLabel"/>
+
+</RelativeLayout>

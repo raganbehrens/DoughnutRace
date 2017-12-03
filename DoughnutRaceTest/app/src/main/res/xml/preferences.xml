@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="difficulty_level"
+        android:title="Difficulty level"
+        android:summary=""
+        android:defaultValue="@string/difficulty_easy"
+        android:entries="@array/difficulty_levels"
+        android:entryValues="@array/difficulty_levels"
+        />
+
+    <ListPreference
+        android:key="controls_settings"
+        android:title="Controls"
+        android:summary=""
+        android:defaultValue="@string/button_controls"
+        android:entries="@array/controls_options"
+        android:entryValues="@array/difficulty_levels"
+        />
+
+    <CheckBoxPreference
+        android:key="power_ups"
+        android:title="Enable Power_Ups"
+        android:defaultValue="false"
+        android:summary="" />
+
+    <CheckBoxPreference
+        android:key="online_scores"
+        android:title="Show Scores Online"
+        android:defaultValue="false"
+        android:summary="" />
+
+
+</PreferenceScreen>
